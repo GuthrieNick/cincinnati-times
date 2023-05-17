@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a::visited {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#banner-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1em;
+    margin: 0 1em;
+}
+
+#banner-title {
+    margin: 0 auto;
+    width: auto;
+    font-size: 3em;
+    font-style: italic;
+}
+
+#banner-bars {
+    transform: scale(1.5, 1);
+}
+
+#banner-user {
+    border-radius: 100%;
+    padding: .25em;
+    margin-right: .25em;
+    background-color: darkgray;
+}

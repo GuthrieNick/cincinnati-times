@@ -1,0 +1,12 @@
+#feed-box {
+    border: 1px solid black;
+    width: 40em;
+    padding: 1em;
+    float: right;
+    margin-right: 5em;
+    margin-bottom: auto;
+}
+
+#feed-title {
+    margin: 0;
+}

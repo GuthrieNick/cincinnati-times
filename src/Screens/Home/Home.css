@@ -1,0 +1,8 @@
+body {
+    margin: 1em;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+}
