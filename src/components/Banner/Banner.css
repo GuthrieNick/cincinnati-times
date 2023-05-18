@@ -4,12 +4,16 @@ a {
     font-family:'Times New Roman', Times, serif;
 }
 
-a::visited {
+a:visited {
     color: black;
 }
 
 h1 {
     text-align: center;
+}
+
+#banner {
+    margin-bottom: 2.5em;
 }
 
 #banner-content {

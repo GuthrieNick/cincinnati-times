@@ -10,3 +10,24 @@
 #feed-title {
     margin: 0;
 }
+
+#feed-edit {
+    border: 1px solid lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+    padding: .5em;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#feed-edit:hover {
+    background-color: darkgray;
+}
+
+#feed-edit:active {
+    background-color: gray;
+}
+
+.feed-headline {
+    margin-bottom: 1em;
+}

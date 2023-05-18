@@ -6,7 +6,7 @@ const Stories: React.FC<{}> = () => {
     return (
         <div>
             {Articles.map(article =>
-                <Story {...article} url={article.id} />
+                <Story key={article.id} {...article} url={article.id} />
             )}
         </div>
     )

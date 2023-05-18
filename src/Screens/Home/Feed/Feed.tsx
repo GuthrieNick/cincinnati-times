@@ -15,12 +15,15 @@ const Feed = () => {
                 break;
         }
     }
+
+    const onClick = () => { console.log('edit feed settings')}
     
     return (
         <div id='feed-box'>
             <Link to='/feed'><h2 id='feed-title'>Your Feed</h2></Link>
             <hr/>
-            {feed.map(story => <p><Headline articleId={story.id} text={story.headline} /></p>)}
+            {feed.map(story => <div key={story.id} className='feed-headline'><Headline articleId={story.id} text={story.headline} /></div>)}
+            <button id='feed-edit' onClick={onClick}>Edit feed settings</button>
         </div>
 )};
 
